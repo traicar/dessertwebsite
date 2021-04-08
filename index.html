@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SweeTreats</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>SweeTreats</h1>
+                    <h4>Bringing smiles to your tummy</h4>
+                </div>
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <a href="#" role="button" class="btn btn-lg btn-info" data-toggle="tooltip" data-placement="bottom"
+                        data-html="true" title="Or call us at <br /><strong>1-314-604-1815</strong>">Get Some Treats</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info-circle fa-lg"></i>
+                            About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-map fa-lg"></i> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-camera fa-lg"></i> Gallery</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact
+                            Us</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="row row-content align-items-center">
+        <div class="col-sm-4 col-md-3">
+            <h2 class="text-sm-center">Welcome Sweet Lovers!</h2>
+        </div>
+        <div class="col">
+
+            <p class="d-none d-sm-block">Explore a world of cakes, cupcakes, cookies, treats and more at our online
+                store. It is a one stop shop to meet your dessert needs.
+            </p>
+        </div>
+    </div>
+
+    <div class="row row-content align-items-center">
+        <div class="col-sm-4 col-md-3">
+            <h2>Services We Offer</h2>
+        </div>
+
+        <div class="col">
+            <p class="d-none d-sm-block"> We offer online ordering for in store pick up for your immediate dessert
+                needs.
+                We also cater for birthdays, weddings, office parties or any other reason to celebrate that you can
+                think of. You can choose from our delicious menu or get creative! We aim to satisfy all tastebuds!
+                You know what they say, all's well that ends sweet!
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="row row-content align-items-center">
+        <div class="col-sm-4 col-md-3">
+            <h2>COVID-19 protocol</h2>
+        </div>
+
+        <div class="col">
+
+            <p class="d-none d-sm-block"> For the protection of our staff and customers, we have moved to online
+                ordering only.If you miss our smiling faces, you can still pick up your order at the store once you
+                order online. Well, our smiles might be hidden behind the masks though. Or else, just sit back, relax
+                and wait for your desserts to be delivered-no-contact at your doorstep by our friendly staff.Saves you
+                time and from that nasty virus! We are accepting phone consultations for customized orders. We will
+                deliver tasting boxes so you can finalize on the flavors.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="row row-content">
+        <div class="col-sm-6 mx-auto">
+            <div class="card">
+                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                <div class="card-body">
+                    <form id="reserveForm">
+                        <div class="form-group row">
+                            <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                            <div class="col">
+                                <select name="numCampers" id="numCampers" class="form-control">
+                                    <option>Select...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="date" class="col-sm-6 col-form-label">Date</label>
+                            <div class="col-sm-6">
+                                <input type="date" class="form-control" id="date" name="date" placeholder="Date" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social Media</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://pinterest.com/"><i
+                            class="fa fa-pinterest"></i></a>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                        1-314-604-1815</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+                            class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
