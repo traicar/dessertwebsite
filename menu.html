@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <script src="scripts.js"></script>
     <title>SweeTreats</title>
+
 </head>
 
 <body>
@@ -42,21 +43,17 @@
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>
+                            Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info-circle fa-lg"></i>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info-circle fa-lg"></i>
                             About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-map fa-lg"></i> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-camera fa-lg"></i> Gallery</a>
+                    <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-map fa-lg"></i> Menu</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i> Contact
                             Us</a></li>
                 </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
-                        <i class="fa fa-sign-in"></i> Login
-                    </a>
-                </span>
 
             </div>
         </div>
@@ -71,78 +68,428 @@
                 </ol>
             </div>
         </div>
-        <h1></h1>
-        <section>
-            <h2>Menu</h2>
-            <table style="border:black solid 5px; opacity:45%">
-                <thead>
-                    <tr>
-                        <th style="color:blue;">Item</th>
-                        <th style="color:blue;">Cost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Coffee</td>
-                        <td>$2</td>
-                    </tr>
-                    <tr>
-                        <td>Tea</td>
-                        <td>$1.50</td>
-                    </tr>
-                    <tr>
-                        <td>Chicken & Waffles</td>
-                        <td>$12</td>
-                    </tr>
-                    <tr>
-                        <td>Blueberry Pancakes</td>
-                        <td>$6</td>
-                    </tr>
-                    <tr>
-                        <td>Chocolate Muffins</td>
-                        <td>$2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
 
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 col-sm-2 offset-1">
-                        <ul class="list-unstyled">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="aboutus.html">About Us</a></li>
-                            <li><a href="menu.html">Menu</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contactus.html">Contact Us</a></li>
-                        </ul>
+        <div class="row row-content">
+            <div class="col">
+
+                
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#cupcakes">
+                                    Cupcakes <small>are just little pieces of heavenly cake bites, aren't they?</small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="cupcakes" data-parent="#accordion">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr class="bg-primary text-light">
+                                                <th>Flavors</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Price per Cupcake</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-primary">
+                                            <tr>
+                                                <th>Vanilla</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Chocolate</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Fresh Berry</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Maple Bacon</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Honey</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Red Velvet</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Lavender Lemon</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Strawberry</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>S'mores</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Apple Pie</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Custom Flavors</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3.5</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-6 col-sm-5 text-center">
-                        <h5>Social Media</h5>
-                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                                class="fa fa-instagram"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                                class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://pinterest.com/"><i
-                                class="fa fa-pinterest"></i></a>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#cakes">
+                                    Cakes <small>scream celebration! Be it a birthday, wedding, baby shower, or just
+                                        because!</small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="cakes" data-parent="#accordion">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr class="bg-primary text-light">
+                                                <th>Flavors</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Price for 8 inch Cake</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-primary">
+                                            <tr>
+                                                <th>Vanilla</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$45</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Chocolate</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$45</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Fresh Berry</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Black Forest</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Tres Letches</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Red Velvet</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Oreo</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Pineapple</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Mango</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$50</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Seasonal Fruits</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$55</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Custom Flavors</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$55</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#cookies">
+                                    Cookies <small>bring out the child in us!</small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="cookies" data-parent="#accordion">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr class="bg-primary text-light">
+                                                <th>Flavors</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Price per 1/2 dozen</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-primary">
+                                            <tr>
+                                                <th>Chocolate Chip</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Oatmeal Raisin</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>S'mores</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>M&M</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Sugar Cookies</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Pumpkin Spice</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Pinwheel Cookies</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Custom Flavors</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Cookie Cake</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$10</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <div class="col-sm-4 text-center">
-                        <a role="button" class="btn btn-link" href="tel:+13146000011"><i class="fa fa-phone"></i>
-                            1-314-600-0011</a><br />
-                        <a role="button" class="btn btn-link" href="mailto:sweetreats@gmail.com"><i
-                                class="fa fa-envelope-o"></i> sweetreats@gmail.com</a>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#chocolates">
+                                    Homemade Chocolates <small> can fix a bad day in one bite!</small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="chocolates" data-parent="#accordion">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr class="bg-primary text-light">
+                                                <th>Flavors</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Price per dozen</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-primary">
+                                            <tr>
+                                                <th>Dark Chocolate</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$15</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Milk Chocolate</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$15</td>
+                                            </tr>
+                                            <tr>
+                                                <th>White Chocolate</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$15</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Chocolate Truffles</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$15</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#treats">
+                                    Treats <small>can make any occasion sweet. Select from our wide variety. </small>
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="treats" data-parent="#accordion">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr class="bg-primary text-light">
+                                                <th>Flavors</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-primary">
+                                            <tr>
+                                                <th Traditions>Chocolate Eclairs</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Flavored Eclairs (matcha, coffee, berry) </th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$4</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Tarts (lemon curd, custard, chocolate mouse)</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$4</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Cake Pops (chocolate, vanilla, birthday cake)</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$2</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Cocoa Bombs</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$8</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Brownies</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>$3</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social Media</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://pinterest.com/"><i
+                            class="fa fa-pinterest"></i></a>
+                </div>
+
+
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+13146000011"><i class="fa fa-phone"></i>
+                        1-314-600-0011</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:sweetreats@gmail.com"><i
+                            class="fa fa-envelope-o"></i> sweetreats@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 

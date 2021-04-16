@@ -1,6 +1,7 @@
-body {
+html {height 100%}
+body{
     font-family: "Open Sans", sans-serif;
-    background-image: url("/img/background.JPG");
+    background-color:white;
         background-repeat:no-repeat;
         background-position: left;
         background-size: cover;
@@ -13,23 +14,34 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #2a2b27;
+    color: #f8f8f7;
     padding: 5px;
     border-style: solid;
     margin-left: 10px;
-background-color: rgb(127, 210, 231);
+background-color: rgb(131, 202, 51);
+text-align: center;
+}
+
+h4 {
+    color: #f8f8f7;
+    padding: 5px;
+    border-style: solid;
+    margin-left: 10px;
+background-color: rgb(121, 160, 76);
 text-align: center;
 }
 
 header h1 {
-    color: hsl(44, 94%, 50%);
+    color: hsl(73, 75%, 42%);
+    background-color:white;
+    padding: 5px;
+    margin-left: 10px;
     font-family: "Trebuchet MS", Tahoma, sans-serif;
-    font-style: oblique;
+    font-style:inherit;
     margin-top: 20px;
 }
 
 .site-footer {
-    background-image: url("/img/background.JPG");
         background-repeat:no-repeat;
         background-position: left;
         background-size: cover;
@@ -37,12 +49,12 @@ header h1 {
 }
 
 .jumbotron {
-    margin: 0;
+    background-image: url("/img/tart.JPG");
+        margin: 0;
     padding: 10px;
-    background-image: url("/img/background.JPG");
         background-repeat:no-repeat;
-        background-position: left;
-        background-size: cover;
+        background-position:center;
+        background-size:cover;
 }
 
 .row-content {
@@ -52,7 +64,7 @@ header h1 {
 }
 
 .navbar {
-    background-color: #f187bc;
+    background-color: #74b40c;
 }
 
 .tab-content {
@@ -66,15 +78,10 @@ a, a:hover {
     text-decoration: none;
   }
 
-  .carousel-caption {
-    background-color: rgba(239, 243, 243, 0.5);
-}
-
 .carousel {
     border:solid;
     border-style:double;
 }
 
-p{
-    background-color: rgb(128, 226, 243);
-}
+
+
