@@ -27,18 +27,23 @@ h4 {
     padding: 5px;
     border-style: solid;
     margin-left: 10px;
-background-color: rgb(121, 160, 76);
+background-color: hsl(73, 75%, 42%);
+opacity: 80%;
 text-align: center;
 }
 
 header h1 {
     color: hsl(73, 75%, 42%);
     background-color:white;
+    opacity: 80%;
     padding: 5px;
+    border-style: solid;
     margin-left: 10px;
     font-family: "Trebuchet MS", Tahoma, sans-serif;
     font-style:inherit;
+    text-align: center;
     margin-top: 20px;
+
 }
 
 .site-footer {
