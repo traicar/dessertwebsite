@@ -7,7 +7,6 @@ body{
         background-size: cover;
 }
 
-
 h1, h2, h3 {
     font-family: "";
     color:black;
@@ -24,39 +23,27 @@ text-align: center;
 
 h4 {
     color: black;
-    padding: 5px;
-    border-style: ridge;
-    border-color: blanchedalmond;
-    margin-left: 200px;
-    margin-right:200px;
 background-color: hsl(73, 75%, 42%);
 opacity: 80%;
-text-align: center;
+text-align: right;
+}
+
+h5{
+    color: black;
+    background-color: hsl(73, 75%, 42%);
+    text-align: center;
 }
 
 h6 {
-color: #f8f8f7;
+color: #dddd2c;
 text-align: center;
 }
 
 header h1 {
     color:black;
-    padding: 5px;
-    border-style: ridge;
-    border-color: blanchedalmond;
-    margin-left: 300px;
-    margin-right:300px;
 background-color: hsl(73, 75%, 42%);
 opacity: 80%;
-text-align: center;
-
-}
-
-.site-footer {
-        background-repeat:no-repeat;
-        background-position: left;
-        background-size: cover;
-    padding: 20px 0;
+text-align: right;
 }
 
 .jumbotron {
@@ -67,6 +54,14 @@ text-align: center;
         background-position:center;
         background-size:cover;
 }
+
+.site-footer {
+        background-repeat:no-repeat;
+        background-position: left;
+        background-size: cover;
+    padding: 20px 0;
+}
+
 
 .row-content {
     padding: 50px 0;
@@ -100,3 +95,11 @@ text-align: justify;
 }
 
 
+.card {
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
