@@ -15,34 +15,40 @@ h1, h2, h3 {
 
 h2 {
     color: #f8f8f7;
-    padding: 5px;
+    padding: 1px;
     border-style: solid;
-    margin-left: 10px;
+    margin-left: 1px;
 background-color: rgb(131, 202, 51);
 text-align: center;
 }
 
 h4 {
-    color: #f8f8f7;
+    color: black;
     padding: 5px;
-    border-style: solid;
-    margin-left: 10px;
+    border-style: ridge;
+    border-color: blanchedalmond;
+    margin-left: 200px;
+    margin-right:200px;
 background-color: hsl(73, 75%, 42%);
 opacity: 80%;
 text-align: center;
 }
 
+h6 {
+color: #f8f8f7;
+text-align: center;
+}
+
 header h1 {
-    color: hsl(73, 75%, 42%);
-    background-color:white;
-    opacity: 80%;
+    color:black;
     padding: 5px;
-    border-style: solid;
-    margin-left: 10px;
-    font-family: "Trebuchet MS", Tahoma, sans-serif;
-    font-style:inherit;
-    text-align: center;
-    margin-top: 20px;
+    border-style: ridge;
+    border-color: blanchedalmond;
+    margin-left: 300px;
+    margin-right:300px;
+background-color: hsl(73, 75%, 42%);
+opacity: 80%;
+text-align: center;
 
 }
 
@@ -86,7 +92,11 @@ a, a:hover {
 .carousel {
     border:solid;
     border-style:double;
+
 }
 
+p {
+text-align: justify;
+}
 
 
