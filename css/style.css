@@ -32,6 +32,7 @@ font-family:fantasy;
 
 h5{
     color: black;
+    font-size: 40px;
     background-color: hsl(73, 75%, 42%);
     text-align: center;
 }
@@ -73,7 +74,6 @@ font-family:fantasy;
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
     min-height: 200px;
 }
 
@@ -110,4 +110,5 @@ text-align: justify;
     box-shadow: 1px 1px 1px #dfdfdf;
     box-sizing: border-box;
     height: 100% !important;
+}
 
