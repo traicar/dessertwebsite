@@ -32,7 +32,7 @@ font-family:fantasy;
 
 h5{
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     background-color: hsl(73, 75%, 42%);
     text-align: center;
 }
@@ -40,6 +40,8 @@ h5{
 h6 {
 color: #dddd2c;
 text-align: center;
+font-weight: bold;
+font-size: 20px;
 }
 
 h7{
@@ -104,7 +106,7 @@ text-align: justify;
 
 .card {
     width: 100%;
-    padding: 9px 20px 9px 20px;
+    padding: 0px;
     margin-bottom: 0px;
     background: #ffffff;
     box-shadow: 1px 1px 1px #dfdfdf;
