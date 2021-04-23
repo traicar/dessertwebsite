@@ -2,85 +2,81 @@ html {height 100%}
 body{
     font-family: "Open Sans", sans-serif;
     background-color:white;
-        background-repeat:no-repeat;
-        background-position: left;
-        background-size: cover;
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: cover;
 }
 
-h1, h2, h3 {
-    font-family: "";
+.jumbotron {
+    background-image: url("/img/tart.JPG");
+    margin: 0;
+    padding: 30px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+header h1 {
     color:black;
-}
-
-h2 {
-    color: #f8f8f7;
-    padding: 1px;
-    border-style: solid;
-    margin-left: 1px;
-background-color: rgb(131, 202, 51);
-text-align: center;
-
+    background-color: hsl(73, 75%, 42%);
+    opacity: 80%;
+    text-align: right;
+    font-family:fantasy;
 }
 
 h4 {
     color: black;
-background-color: hsl(73, 75%, 42%);
-opacity: 80%;
-text-align: right;
-font-family:fantasy;
+    background-color: hsl(73, 75%, 42%);
+    opacity: 80%;
+    text-align: right;
+    font-family:fantasy;
 }
 
-h5{
+h2 {
+    color: #f8f8f7;
+    padding:0px;
+    border-style: solid;
+    background-color: rgb(131, 202, 51);
+    text-align: center;
+    font-size: 25px;
+}
+
+h3{
     color: black;
     font-size: 30px;
     background-color: hsl(73, 75%, 42%);
     text-align: center;
 }
 
-h6 {
-color: #dddd2c;
-text-align: center;
-font-weight: bold;
-font-size: 20px;
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
 }
 
-h7{
+h6{
     color:green;
-}
-
-header h1 {
-    color:black;
-background-color: hsl(73, 75%, 42%);
-opacity: 80%;
-text-align: right;
-font-family:fantasy;
-}
-
-.jumbotron {
-    background-image: url("/img/tart.JPG");
-        margin: 0;
-    padding: 10px;
-        background-repeat:no-repeat;
-        background-position:center;
-        background-size:cover;
 }
 
 .site-footer {
         background-repeat:no-repeat;
         background-position: left;
         background-size: cover;
-    padding: 20px 0;
-    font-weight: bold;
+        background-color: rgb(201, 243, 123);
+        padding: 20px 0;
+        font-weight: bold;
+        border-top:green solid;
 }
-
 
 .row-content {
-    padding: 50px 0;
-    min-height: 200px;
-}
+    padding: 2px;
+  }
 
 .navbar {
     background-color: #74b40c;
+    border-top: green solid;
+    border-bottom: green solid;
+    border-width: 1px;
 }
 
 .tab-content {
@@ -94,23 +90,26 @@ a, a:hover {
   }
 
 .carousel {
-    border:solid;
-    border-style:double;
-
+    border-style:inset;
+    border-color: rgb(170, 240, 101);
 }
 
 p {
 text-align: justify;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .card {
     width: 100%;
     padding: 0px;
     margin-bottom: 0px;
-    background: #ffffff;
-    box-shadow: 1px 1px 1px #dfdfdf;
+    background: #e4eed7;
+    box-shadow: 2px 2px 2px #26a13b;
     box-sizing: border-box;
     height: 100% !important;
 }
 
+.breadcrumb {
+    padding:5px;
+    font-size: 15px;
+}
